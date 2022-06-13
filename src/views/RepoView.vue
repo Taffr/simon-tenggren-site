@@ -1,10 +1,5 @@
 <template>
       <div class="main">
-        <template v-if="loading">
-          <div class="loader">
-          </div>
-        </template>
-        <template v-else>
           <div class="sortingButtons">
             <button class="sortButton" @click="orderBy('lastUpdated')"> Order by Last Update </button>
             <button class="sortButton" @click="orderBy('language')"> Order by Language </button>
@@ -13,7 +8,6 @@
           <div class="list">
             <RepoList :repos="repositories" :order="order"/>
           </div>
-        </template>
       </div>
 </template>
 <script lang="ts">
@@ -42,30 +36,20 @@ export default {
     RepoList
   },
   setup() {
-    const loading = ref(false);
     const repositories = ref<RepoInfo[]>([]);
+    axios.get(GITHUB_URL).then(response => {
+        repositories.value = response.data.map(asRepoInfo);
+    });
     const order = ref<OrderTerm>('lastUpdated');
-    const orderBy = (term : OrderTerm) : void => {
+    const orderBy = ref((term : OrderTerm) : void => {
        order.value = term; 
-    };
+    });
 
-    return {loading, repositories, order, orderBy};
-  },
-
-  methods: {
-    getRepoInfo() {
-      this.loading = true;
-      axios.get(GITHUB_URL).then(response => {
-        this.repositories = response.data.map(asRepoInfo);
-        this.loading = false;
-      });
-    }
-  },
-  created() {
-    this.getRepoInfo();
+    return {repositories, order, orderBy};
   },
 };
 </script>
+
 <style scoped>
 .main {
   border: solid;

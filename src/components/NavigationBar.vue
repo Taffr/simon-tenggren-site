@@ -7,7 +7,7 @@
     </div>
     <div class="routerButtons">
         <div v-for="route of routes" :key="route.name">
-            <RouterButton :name="route.name" :path="route.path" :icon="icons[route.path]"/>
+            <RouterButton :name="route.name" :to="route.path" :icon="icons[route.path]"/>
         </div>
     </div>
 </nav>

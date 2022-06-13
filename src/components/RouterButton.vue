@@ -1,5 +1,5 @@
 <template>
-<RouterLink :to="path">
+<RouterLink :to="to">
     <button class="routerButton">
         <div class="buttonContent">
             <div class="iconDiv">
@@ -18,13 +18,23 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import { RouterLink } from "vue-router";
+import { RouterLink, } from "vue-router";
+import type { RouteRecordName } from "vue-router";
+import type { PropType } from 'vue';
 export default defineComponent({
     name: 'RouterButton',
     props: {
-        name: String,
-        path: String,
-        icon: String,
+        name: {
+            type: String as PropType<RouteRecordName | undefined>,
+            required: true,
+        },
+        to:{
+            type: String,
+            required: true,
+        },
+        icon : {
+            type: String, 
+        }
     },
     components: {
         RouterLink,
