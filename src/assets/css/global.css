@@ -1,0 +1,49 @@
+/* Pallette */
+:root{
+  --white: rgba(254, 254, 254, 0.9);
+  --cream: #FFFDD0;
+  --ivory: #FFFFF0;
+  --alice-blue: #E8F1F2;
+  --xanadu: #828E82;
+  --dark: rgba(55, 55, 55, .5);
+  --dark-nav: rgba(55, 55, 55, 1);
+  --black: #000000;
+  --amber: rgba(255, 172, 0, 0.80);
+  --amazon: #3f6c51;
+  --artichoke: #dbd709;
+  --magic-mint: #B7E3CC;
+  --light-cyan: #E9FFF9;
+}
+
+/* semantic color variables */
+:root {
+  --color-nav: var(--ivory);
+  --color-background: var(--white);
+  --color-text: var(--black);
+  --color-accent: var(--amber);
+  --color-icon: var(--white);
+  --section-gap: 160px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text) !important;
+  background: var(--color-background) !important;
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

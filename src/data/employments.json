@@ -1,0 +1,47 @@
+[
+    {
+       "id": 0,
+       "employer": "1337",
+       "role": "Software Consultant",
+       "from": "Aug. 2022",
+       "to": "Present",
+       "about": "My first employment after graduating, starting in August 2022",
+       "skills": ["TBD"]
+    },
+    {
+        "id": 1,
+        "employer": "Axis Communications",
+        "role": "Master Thesis Worker",
+        "from": "Sept. 2021",
+        "to": "Mar. 2022",
+        "about": "Completed my education by performing my master thesis at Axis Communications",
+        "skills": ["WebRTC", ".NET", "Performance Evaluation"]
+    },
+    {
+        "id": 2,
+        "employer": "Axis Communications",
+        "role": "Software Developer / Summer Intern",
+        "from": "June. 2021",
+        "to": "Aug. 2021",
+        "about": "Summer Worker in the Axis Companion team. During the internship I got experience with developing a large scale software product using modern software engineering practices. Such as code reviews, CI/CD, and Agile.",
+        "skills": ["C#", ".NET", "Agile", "Git", "WPF", "CI/CD"]
+    },
+    {
+        "id": 3,
+        "employer": "Fortlax Datacenter (now Cloudist and EcoDataCenter)",
+        "role": "Student Consultant / Developer",
+        "from": "Apr. 2019",
+        "to": "Oct. 2019",
+        "about": "I worked as a student consultant at Fortlax Datacenter mainly doing work as an API developer using NodeJS. Occasionally doing some front-end work as well to tie things together.",
+        "skills": ["JavaScript", "NodeJS", "PHP"]
+    },
+    {
+        "id": 4,
+        "employer": "Lund University",
+        "role": "Programming Instructor / Teachers Assistant",
+        "from": "",
+        "to": "",
+        "about": "",
+        "skills": ["Java", "Teaching", "Communication"]
+    }
+]

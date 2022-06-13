@@ -1,0 +1,28 @@
+[
+    {
+
+        "id": 0,
+        "title": "Integration and Evaluation of WebRTC in an Existing .NET Environment",
+        "description": "My M.Sc. Thesis written at LTH  and Axis Communications AB. Integrated and Evaluated WebRTC as an alternative streaming solution in Axis' video management systems. Learned WebRTC from scrath and in detail.",
+        "links": [["Download and read here", "http://lup.lub.lu.se/student-papers/record/9076580/file/9076581.pdf"]]
+    },
+    {
+
+        "id": 1,
+        "title": "A Specialized B-Tree data structure for Datalog Evaluation in Java",
+        "description": "Java implementation of Specialized B-Tree for use in Datalog Engines. Specialized Hint-system and synchronization for parallell insertion and searches based on Seqlocks. Evaluated in the context of JVM, using modern benchmarking methodology, measuring both start-up and steady-state performance. Compared to the relevant datastructures in the Java Runtime Library for performance in insertion, search, and memory usage",
+        "links": [["Source Code", "https://bitbucket.org/edan70/brie-simon-louise/src/FinalA/"]]
+    },
+    {
+        "id": 2,
+        "title" : "Generalized Text Pre-Processor (GTPP)",
+        "description": "A preprocessor inspired by the preprocessor in C/C++. Allows for definitions of macros, both simple text replacement and more advanced functions. Allows for linking documents together, and linking files with macros, aswell as using conditional inclusion. Supports nested conditional statements. Recursive macro definitions and function calls.",
+        "links": [["Source Code", "https://github.com/Taff3r/GeneralTextPreprocessor"], ["Presentation (Swedish)", "https://www.youtube.com/watch?v=wlMHjejjUIM"]]
+    },
+    {
+        "id": 3,
+        "title": "simontenggren.xyz",
+        "description": "My Personal Website you're (most probably) here right now. Its was originally written as an SPA in React, however later rewritten in Vue3.",
+        "links": [["Source Code", "https://wwww.github.com/Taff3r/simon-tenggren-site"]]
+    }
+]

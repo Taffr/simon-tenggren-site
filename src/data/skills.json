@@ -1,0 +1,176 @@
+[
+    {
+        "id": 0,
+        "name": "C",
+        "type": "Programming",
+        "level": 3
+    },
+    {
+        "id": 1,
+        "name": "Java",
+        "type": "Programming",
+        "level": 3
+    },
+    {
+        "id": 2,
+        "name": "SQL",
+        "type": "Programming",
+        "level": 4
+    },
+    {
+        "id": 3,
+        "name": "PHP",
+        "type": "Programming",
+        "level": 2
+    },
+    {
+        "id": 4,
+        "name": "JavaScript",
+        "type": "Programming",
+        "level": 4
+    },
+    {
+        "id": 5,
+        "name": "Python",
+        "type": "Programming",
+        "level": 3
+    },
+    {
+        "id": 6,
+        "name": "C++",
+        "type": "Programming",
+        "level": 2
+    },
+    {
+        "id": 7,
+        "name": "C#",
+        "type": "Programming",
+        "level": 4
+    },
+    {
+        "id": 8,
+        "name": "HTML",
+        "type": "Programming",
+        "level": 3
+    },
+    {
+        "id": 9,
+        "name": "CSS",
+        "type": "Programming",
+        "level": 2
+    },
+    {
+        "id": 10,
+        "name": "WebRTC",
+        "type": "Framework or Library",
+        "level": 5
+    },
+    {
+        "id": 11,
+        "name": "NodeJS",
+        "type": "Framework or Library",
+        "level": 4
+    },
+    {
+        "id": 12,
+        "name": "React",
+        "type": "Framework or Library",
+        "level": 3
+    },
+    {
+        "id": 13,
+        "name": "NumPy",
+        "type": "Framework or Library",
+        "level": 2
+    },
+    {
+        "id": 13,
+        "name": "ExpressJS",
+        "type": "Framework or Library",
+        "level": 3
+    },
+    {
+        "id": 14,
+        "name": "WPF",
+        "type": "Framework or Library",
+        "level": 3
+    },
+    {
+        "id": 15,
+        "name": ".NET",
+        "type": "Framework or Library",
+        "level": 4
+    },
+    {
+        "id": 15,
+        "name": ".NET",
+        "type": "Framework or Library",
+        "level": 4
+    },
+    {
+        "id": 16,
+        "name": "git",
+        "type": "Development Tool",
+        "level": 4
+    },
+    {
+        "id": 17,
+        "name": "OProfile",
+        "type": "Development Tool",
+        "level": 2
+    },
+    {
+        "id": 18,
+        "name": "Valgrind",
+        "type": "Development Tool",
+        "level": 3
+    },
+    {
+        "id": 19,
+        "name": "GDB",
+        "type": "Development Tool",
+        "level": 2
+    },
+    {
+        "id": 20,
+        "name": "Gradle",
+        "type": "Development Tool",
+        "level": 2
+    },
+    {
+        "id": 21,
+        "name": "Make",
+        "type": "Development Tool",
+        "level": 3
+    },
+    {
+        "id": 22,
+        "name": "Android Studio",
+        "type": "Development Tool",
+        "level": 2
+    },
+    {
+        "id": 22,
+        "name": "Microsoft Windows",
+        "type": "OS",
+        "level": 2
+    },
+    {
+        "id": 23,
+        "name": "Linux",
+        "type": "OS",
+        "level": 3
+    },
+    {
+        "id": 24,
+        "name": "Adobe Photoshop",
+        "type": "Other",
+        "level": 3
+    },
+    {
+        "id": 24,
+        "name": "Microsoft Office Suite",
+        "type": "Other",
+        "level": 3
+    }
+]
