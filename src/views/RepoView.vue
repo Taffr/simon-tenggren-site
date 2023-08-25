@@ -18,7 +18,7 @@ import type  OrderTerm from '@/types/OrderTerm';
 import { ref } from '@vue/reactivity';
 import RepoList from '@/components/RepoList.vue';
 
-const GITHUB_URL = 'https://api.github.com/users/Taff3r/repos';
+const GITHUB_URL = 'https://api.github.com/users/Taffr/repos';
 const asRepoInfo = (repo: any): RepoInfo => {
   return {
     id: repo.id,
